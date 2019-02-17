@@ -1,0 +1,24 @@
+{
+  "name": "starter-supertag",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "presetup": "git clean -fdX",
+    "setup": "yarn",
+    "postsetup": "yarn build",
+    "start": "rollup -wc"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "supertag": "^0.0.3"
+  },
+  "devDependencies": {
+    "tslib-cli": "^0.0.28"
+  }
+}
