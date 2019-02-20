@@ -19,6 +19,6 @@
     "supertag": "^0.0.3"
   },
   "devDependencies": {
-    "tslib-cli": "^0.0.28"
+    "tslib-cli": "^1.0.0"
   }
 }
